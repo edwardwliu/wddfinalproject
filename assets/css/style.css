@@ -1,0 +1,21 @@
+/* You may use the following selectors, but it's not required. */
+
+body {
+	font-family: 'Open Sans';
+	margin: 0 auto;
+	text-align: center;
+}
+
+#header {
+	padding: 20px, 5px, 10px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.bar-item {
+	display: inline-block;
+	padding: 50px;
+}
+

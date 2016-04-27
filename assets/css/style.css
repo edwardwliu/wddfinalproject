@@ -7,27 +7,55 @@ body {
 }
 
 #header {
-	padding: 20px, 5px, 10px;
+	padding-top: 50px;
+	padding-bottom: 0px;
 	text-align: center;
-	font-size: 50px;
-	font-weight: 700;
-	font-style: normal;
+	font-size: 80px;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
 }
 
 .bar-item {
 	display: inline-block;
-	padding: 50px;
+	padding-top: 40px;
+	padding-left: 110px;
+	padding-right: 110px;
+	padding-bottom: 30px;
+	font-size: 25px;
+font-family: 'Source Sans Pro', sans-serif;
 }
 
 #profilepicture {
-	width: 300px;
+	width:250px;
 	border-radius: 150px;
+	position: absolute;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	margin: 10px;
+	margin-right: 570px;
+	left: 21%;
+	top: 42%;
 }
 
+#subheading {
+	/*border: 3px solid #857c78;*/
+	width: 200px;
+	position: absolute;
+	left: 43%;
+	top: 45%;
+	font-size: 30px;
+}
 
-.aboutme {
+#description {
+/*	border: 3px solid #857c78;
+*/	border-color: black;
+	width: 500px;
+	position: absolute;
+	left: 45%;
+	top: 51%;
+}
+
+.project-container {
 	display: inline-block;
+	border: 3px solid #857c78;
 }
